@@ -799,7 +799,7 @@
   <main id="top">
     <section class="hero">
       <div class="hero-media">
-        <img src="assets/One.avif" alt="Editorial portrait of a model in textured, neutral-toned clothing against a minimal backdrop">
+        <img src="One.avif" alt="Editorial portrait of a model in textured, neutral-toned clothing against a minimal backdrop">
       </div>
       <div class="hero-content">
         <p class="hero-kicker">Fall/Winter — new arrivals</p>
@@ -839,21 +839,21 @@
         </div>
         <div class="category-grid">
           <a href="#bestsellers" class="cat-tile cat-women">
-            <img src="assets/two.avif" alt="Woman in a minimalist interior wearing tailored neutral-toned clothing">
+            <img src="two.avif" alt="Woman in a minimalist interior wearing tailored neutral-toned clothing">
             <div class="cat-tile-label">
               <h3>Women</h3>
               <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="18" x2="18" y2="6"/><polyline points="9 6 18 6 18 15"/></svg></span>
             </div>
           </a>
           <a href="#bestsellers" class="cat-tile cat-men">
-            <img src="assets/three.avif" alt="Man posing casually in a modern, minimalist environment wearing tailored clothing">
+            <img src="three.avif" alt="Man posing casually in a modern, minimalist environment wearing tailored clothing">
             <div class="cat-tile-label">
               <h3>Men</h3>
               <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="18" x2="18" y2="6"/><polyline points="9 6 18 6 18 15"/></svg></span>
             </div>
           </a>
           <a href="#bestsellers" class="cat-tile cat-access">
-            <img src="assets/four.jpg" alt="Leather bag with eyeglasses, wallet, and phone arranged in an overhead flat lay">
+            <img src="four.jpg" alt="Leather bag with eyeglasses, wallet, and phone arranged in an overhead flat lay">
             <div class="cat-tile-label">
               <h3>Accessories</h3>
               <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="18" x2="18" y2="6"/><polyline points="9 6 18 6 18 15"/></svg></span>
@@ -877,7 +877,7 @@
 
     <section class="feature-banner">
       <div class="feature-media">
-        <img src="assets/five.avif" alt="Woman in a tailored black skirt and white shirt on a modern staircase with a geometric wall">
+        <img src="five.avif" alt="Woman in a tailored black skirt and white shirt on a modern staircase with a geometric wall">
       </div>
       <div class="feature-copy">
         <h2>Layers for the season ahead</h2>
@@ -890,7 +890,7 @@
       <div class="container">
         <div class="story" id="storyBlock">
           <div class="story-media">
-            <img src="assets/six.avif" alt="Person weaving fabric by hand on a traditional wooden loom">
+            <img src="six.avif" alt="Person weaving fabric by hand on a traditional wooden loom">
           </div>
           <div class="story-copy">
             <h2>We work with five family-run mills across Portugal and Japan</h2>
@@ -941,12 +941,12 @@
         <h2 style="font-size:1.6rem;">Tag @sable to be featured</h2>
       </div>
       <div class="gallery-grid">
-        <a href="#"><img src="assets/seven.avif" alt="Camel-toned wool coats displayed on a minimalist coat stand"></a>
-        <a href="#"><img src="assets/eight.avif" alt="Beige blazer hanging on a minimalist metal rack"></a>
-        <a href="#"><img src="assets/nine.avif" alt="Model in an all-black outfit walking against a white backdrop"></a>
-        <a href="#"><img src="assets/ten.avif" alt="Woman in a studio modeling a chic white sweater and trousers"></a>
-        <a href="#"><img src="assets/eleven.avif" alt="Minimalist wardrobe of neutral-toned clothes on hangers"></a>
-        <a href="#"><img src="assets/twelve.avif" alt="Casual t-shirts hanging on a clothing rack against a white wall"></a>
+        <a href="#"><img src="seven.avif" alt="Camel-toned wool coats displayed on a minimalist coat stand"></a>
+        <a href="#"><img src="eight.avif" alt="Beige blazer hanging on a minimalist metal rack"></a>
+        <a href="#"><img src="nine.avif" alt="Model in an all-black outfit walking against a white backdrop"></a>
+        <a href="#"><img src="ten.avif" alt="Woman in a studio modeling a chic white sweater and trousers"></a>
+        <a href="#"><img src="eleven.avif" alt="Minimalist wardrobe of neutral-toned clothes on hangers"></a>
+        <a href="#"><img src="twelve.avif" alt="Casual t-shirts hanging on a clothing rack against a white wall"></a>
       </div>
     </section>
 
@@ -1028,8 +1028,7 @@
     var card = document.createElement('article');
     card.className = 'product-card';
     card.innerHTML =
-      '<div class="product-media">' +
-        '<img src="assets/' + p.img + '.avif" alt="' + p.alt + '" loading="lazy">' +
+      '<div class="product-media">' 
         '<button class="quick-add" type="button">Add to Bag</button>' +
       '</div>' +
       '<div class="product-info"><h3>' + p.name + '</h3><span class="price">' + p.price + '</span></div>';
