@@ -1009,7 +1009,6 @@
     </div>
   </footer>
 
-<script>
 (function(){
   // ---- product data (keeps HTML markup identical per card) ----
   var products = [
@@ -1028,8 +1027,8 @@
     var card = document.createElement('article');
     card.className = 'product-card';
     card.innerHTML =
-      '<div class="product-media">' 
-     '<img src="' + p.img + '.avif" alt="' + p.alt + '" loading="lazy">' +
+      '<div class="product-media">' +
+        '<img src="' + p.img + '.avif" alt="' + p.alt + '" loading="lazy">' +
         '<button class="quick-add" type="button">Add to Bag</button>' +
       '</div>' +
       '<div class="product-info"><h3>' + p.name + '</h3><span class="price">' + p.price + '</span></div>';
